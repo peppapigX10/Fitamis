@@ -10,16 +10,14 @@
     <title>{% block title%}Fitamis{% endblock %}</title>
 </head>
 <body>
-    <div class="navbar">
-        <ul>
-            <li><img src="../static/img/logo.png" class="navbar-logo"alt="Fitamis logo"></li>
-            <div class="navbar-text">
-                <li><a href="#Home">Home</a></li>
-                <li><a href="#About">About</a></li>
-                <li><a href="#Try">Try It!</a></li>
-            </div>
+    <ul class="navbar">
+        <li><img src="../static/img/logo.png" class="navbar-logo"alt="Fitamis logo"></li>
+        <ul class="navbar-text">
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#About">About</a></li>
+            <li><a href="#Try">Try It!</a></li>
         </ul>
-    </div>
+    </ul>
     {% block content %}
     {% endblock %}
 </body>
